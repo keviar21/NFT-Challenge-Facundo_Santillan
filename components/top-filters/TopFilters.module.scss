@@ -1,0 +1,44 @@
+.top_filters {
+
+    @media (max-width: 600px) {
+        margin-top: 32px;
+    }
+
+    &__list {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+
+        &__option {
+            font-family: 'DM Sans', sans-serif;
+            padding: 6px 12px;
+            color: #777E91;
+            font-weight: 700;
+            font-size: 14px;
+            border-radius: 100px;
+            transition: 0.3s;
+            margin-right: 12px;
+
+            &:last-child {
+                margin-right: 0;
+            }
+
+            &:hover {
+                color: #E6E8EC;
+                cursor: pointer;
+                transition: 0.3s;
+            }
+        }
+
+        &__option___selected {
+            background-color: #E6E8EC;
+            color: #23262F;
+
+            &:hover {
+                color: #23262F;
+                cursor: default;
+            }
+        }
+    }
+}

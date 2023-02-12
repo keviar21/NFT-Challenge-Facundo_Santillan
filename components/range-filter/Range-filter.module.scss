@@ -1,0 +1,37 @@
+.range_filter {
+
+    &__title {
+        color: #B1B5C3;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 12px;
+        font-family: 'Poppins', sans-serif;
+        margin-top: 0;
+    }
+
+    &__input {
+        margin: 12px 0 0 0;
+        width: 100%;
+    }
+
+    &__limits {
+        display: flex;
+        justify-content: space-between;
+
+        &__actual {
+            background-color: #FCFCFD;
+            color: #23262F !important;
+            padding: 2px 4px;
+            font-size: 12px !important;
+            border-radius: 8px;
+        }
+
+        p {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            font-weight: 500;
+            font-size: 14px;
+            color: #FCFCFD;
+        }
+    }
+}

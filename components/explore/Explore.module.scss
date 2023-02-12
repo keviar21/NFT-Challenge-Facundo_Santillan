@@ -1,0 +1,44 @@
+.explore {
+    display: flex;
+    justify-content: center;
+    margin-top: 128px;
+
+    @media (max-width: 600px) {
+        margin-top: 64px;
+        padding: 0 32px;
+    }
+
+    &__content {
+        text-align: center;
+
+        &__eyebrow {
+            color: #777E90;
+            text-transform: uppercase;
+            font-family: 'Poppins', sans-serif;
+            font-size: 12px;
+            font-weight: 700px;
+            margin: 0;
+
+            @media (max-width: 600px) {
+                font-size: 10px;
+            }
+        }
+
+        &__title {
+            font-family: 'DM Sans', sans-serif;
+            color: #FCFCFD;
+            font-size: 40px;
+            font-weight: 700px;
+            margin-top: 0;
+            margin-bottom: 24px;
+
+            @media (max-width: 600px) {
+                font-size: 32px;
+            }
+        }
+
+        button {
+            padding: 16px 24px;
+        }
+    }
+}

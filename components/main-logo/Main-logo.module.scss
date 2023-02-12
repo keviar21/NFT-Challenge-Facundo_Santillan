@@ -1,0 +1,16 @@
+.main_logo {
+    a {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        text-decoration: none;
+
+        h2 {
+            color: #F4F5F6;
+            font-size: 24px;
+            font-weight: 600;
+            margin: 0 32px 0 5px;
+            font-family: 'Poppins', sans-serif;
+        }
+    }
+}

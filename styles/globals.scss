@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+body {
+  background-color: #141416;
+  margin: 0;
+}
+
+main {
+  max-width: 1120px;
+  margin: 0 auto;
+
+  @media (max-width: 1280px) {
+    padding: 0 32px;
+  }
+}
+
+//Buttons
+
+.primary-button {
+    font-family: 'DM Sans', sans-serif;
+    background-color: #141416;
+    color: #FCFCFD;
+    padding: 12px 16px;
+    border: 2px solid #777E91;
+    border-radius: 90px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.3s;
+
+    &:hover {
+        background-color: #FCFCFD;
+        color: #141416;
+        border-color: #FCFCFD;
+        transition: 0.3s;
+    }
+}
+
+.secondary-button {
+  font-family: 'DM Sans', sans-serif;
+  background-color: #3772FF;
+  border: 2px solid #3772FF;
+  color: #FCFCFD;
+  padding: 12px 16px;
+  border-radius: 90px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+//labels
+
+.rare {
+  background-color: #45B36B;
+}
+
+.legendary {
+  background-color: #9757D7;
+}
